@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href="{{ url_for('static', filename='css/style.css') }}">
+    <title>Result</title>
+</head>
+<body>
+    <div class="title"><h1>Result</h1></div>
+    <div class="container2">
+        <p>Patient's Diabetic Prediction  Result : </p><p id="result">{{prediction}}</p>
+
+    </div>
+    <div class="footer-main-div">
+        <div class="footer-content=div">
+            <a href='' target='blank' id='glink'>Github Link</a>
+        </div>
+        <div class="credit"><p>Created By Ram Sahani</p></div>
+    
+    </div>   
+</body>
+</html>

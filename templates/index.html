@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href="{{ url_for('static', filename='css/style.css') }}">
+    <title>Welcome</title>
+</head>
+<body>
+    <div class="title"><h1>Ai For Health</h1></div>
+    <div class="container">
+        <div class="left"></div>
+        <div class="right">
+            <div class="formBox">
+                <form action="/predict" method="POST">
+                    <input type="text" name="bmi" id="bmi" placeholder="BMI">
+                    <input type="text" name="glucose" id="glucose" placeholder="Glucose">
+                    <input type="text" name="blood_pressure" id="blood_pressure" placeholder="Blood Pressure">
+                    <input type="text" name="skin_thickness" id="skin_thickness" placeholder="Skin Thickness">
+                    <input type="text" name="insulin" id="insulin" placeholder="Insulin">
+                    <input type="text" name="pregnancies" id="pregnancies"placeholder="Pregnancies" step="any">
+                    <input type="text" name="diabetes_pedigree_Function" id="diabetes_pedigree_Function" placeholder="Diabetes Pedigree Function">
+                    <input type="text" name="age" id="age" placeholder="AGE">
+                    <input type="submit" value="Predict">
+                </form>
+            </div>
+        </div>
+    </div>
+<div class="footer-main-div">
+    <div class="footer-content=div">
+        <a href='' target='blank' id='glink'>Github Link</a>
+    </div>
+    <div class="credit"><p>Created By Ram Sahani</p></div>
+
+</div>
+</body>
+</html>

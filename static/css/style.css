@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(markus-frieauff-IJ0KiXl4uys-unsplash.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+     
+}
+.title{
+    text-align: center;
+    padding: 50px 0px 20px;
+}
+.title h1{
+    margin: 0;
+    padding: 0;
+    color: black;
+    text-transform: uppercase;
+    font-size: 40px;
+
+}
+.container{
+    width:50%;
+    height:500px;
+    background: #ffffff;
+    margin: 0 auto;
+    border: 2px solid #fff;
+    box-shadow: 0 15px 40px rgba(0,0,0,.5);
+}
+.container2{
+    width:50%;
+    height:200px;
+    background: #ffffff;
+    margin: 0 auto;
+    border: 2px solid #fff;
+    box-shadow: 0 15px 40px rgba(0,0,0,.5);
+}
+.container .left{
+    float: left;
+    width: 50%;
+    height: 500px;
+    background: url(national-cancer-institute-L8tWZT4CcVQ-unsplash.jpg);
+    background-size: cover;
+}
+.container .right{
+    float: right;
+    width: 50%;
+    height: 500px;
+    box-sizing: border-box;
+
+}
+.formBox{
+    width:100%;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    height: 500px;
+}
+.formBox input{
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+.formBox input[type='text']{
+    height: 20px;
+    width: 70%;
+}
+.formBox input[type='submit']{
+    border: none;
+    outline: none;
+    width: 70%;
+    height: 40px;
+    color: white;
+    background: black;
+    cursor: pointer;
+}
+.footer-main-div{
+bottom:0;
+position: absolute;
+width:100%;
+margin:auto;
+padding: auto;
+height: auto;
+background: rgba(0,0,0,.9);
+text-align: center;
+}
+.footer-content-div{
+    display: inline;
+    margin: auto;
+    color: gray;
+}
+#glink{
+    color: gray;
+    font-size: 20px;
+}
+.credit{
+    color: gray;
+}
+
+.container2 {
+    border: 1px solid #327a81;
+    border-radius: 10px;
+    box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.1);
+    max-width: calc(100% - 2em);
+    margin: 1em auto;
+    overflow: hidden;
+    width: 800px;
+    text-align: center;
+    font-size: xx-large;
+  }
+  #result{
+  color: red;
+  }
+ 
